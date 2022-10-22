@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="This app checks the device for options available with Bluetooth 5"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/swMainBleEnabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:checked="false"
+        android:clickable="false"
+        android:text="Bluetooth is enabled"
+        android:textSize="18sp" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/swMainBleSupportLe2MPhy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:checked="false"
+        android:clickable="false"
+        android:text="Support for Le2M Phy"
+        android:textSize="18sp" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/swMainBleSupportLeCodedPhy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:checked="false"
+        android:clickable="false"
+        android:text="Support for Le Coded Phy"
+        android:textSize="18sp" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/swMainBleSupportLeExtendedAdvertising"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:checked="false"
+        android:clickable="false"
+        android:text="Support for Le Extended Advertising"
+        android:textSize="18sp" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/swMainBleSupportLePeriodicAdvertising"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:checked="false"
+        android:clickable="false"
+        android:text="Support for Le Periodic Advertising"
+        android:textSize="18sp" />
+
+</LinearLayout>
